@@ -1,6 +1,5 @@
 package com.kv.userweatherapp.presentation.user
 
-import android.content.DialogInterface
 import android.os.Bundle
 import android.view.*
 import androidx.databinding.DataBindingUtil
@@ -13,7 +12,7 @@ import com.google.android.material.snackbar.Snackbar
 import com.kv.userweatherapp.MyApplication
 import com.kv.userweatherapp.R
 import com.kv.userweatherapp.databinding.HomeFragmentBinding
-import com.kv.userweatherapp.datalayer.db.user.UserEntity
+import com.kv.userweatherapp.data.db.user.UserEntity
 
 
 class HomeFragment : Fragment() {

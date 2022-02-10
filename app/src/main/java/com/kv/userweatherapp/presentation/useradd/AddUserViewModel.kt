@@ -6,8 +6,8 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import com.kv.userweatherapp.datalayer.db.user.UserEntity
-import com.kv.userweatherapp.datalayer.db.user.UserRepository
+import com.kv.userweatherapp.data.db.user.UserEntity
+import com.kv.userweatherapp.data.db.user.UserRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

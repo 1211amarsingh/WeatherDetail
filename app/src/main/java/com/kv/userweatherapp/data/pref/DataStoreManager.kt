@@ -1,4 +1,4 @@
-package com.kv.userweatherapp.datalayer.pref
+package com.kv.userweatherapp.data.pref
 
 import android.content.Context
 import androidx.datastore.core.DataStore

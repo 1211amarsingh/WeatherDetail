@@ -1,4 +1,4 @@
-package com.kv.userweatherapp.datalayer.db.user
+package com.kv.userweatherapp.data.db.user
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

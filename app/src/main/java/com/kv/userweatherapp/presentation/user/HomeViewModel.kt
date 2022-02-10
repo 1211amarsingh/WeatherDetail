@@ -1,8 +1,8 @@
 package com.kv.userweatherapp.presentation.user
 
 import androidx.lifecycle.*
-import com.kv.userweatherapp.datalayer.db.user.UserEntity
-import com.kv.userweatherapp.datalayer.db.user.UserRepository
+import com.kv.userweatherapp.data.db.user.UserEntity
+import com.kv.userweatherapp.data.db.user.UserRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

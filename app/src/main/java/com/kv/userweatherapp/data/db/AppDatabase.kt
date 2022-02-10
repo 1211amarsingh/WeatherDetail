@@ -1,4 +1,4 @@
-package com.kv.userweatherapp.datalayer.db
+package com.kv.userweatherapp.data.db
 
 import android.content.Context
 import androidx.room.Database
@@ -6,8 +6,8 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import com.kv.atmapplication.util.TimestampConverter
-import com.kv.userweatherapp.datalayer.db.user.UserEntity
-import com.kv.userweatherapp.datalayer.db.user.UserDao
+import com.kv.userweatherapp.data.db.user.UserEntity
+import com.kv.userweatherapp.data.db.user.UserDao
 
 @Database(
     entities = arrayOf(UserEntity::class),

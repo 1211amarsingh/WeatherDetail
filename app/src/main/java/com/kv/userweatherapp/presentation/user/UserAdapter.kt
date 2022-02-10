@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.kv.userweatherapp.databinding.ItemUserBinding
-import com.kv.userweatherapp.datalayer.db.user.UserEntity
+import com.kv.userweatherapp.data.db.user.UserEntity
 
 class UserAdapter(var click1: View.OnClickListener) :
     ListAdapter<UserEntity, UserAdapter.ItemViewholder>(DiffCallback()) {

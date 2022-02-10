@@ -1,9 +1,9 @@
 package com.kv.userweatherapp
 
 import android.app.Application
-import com.kv.userweatherapp.datalayer.db.AppDatabase
-import com.kv.userweatherapp.datalayer.db.user.UserRepository
-import com.kv.userweatherapp.datalayer.pref.DataStoreManager
+import com.kv.userweatherapp.data.db.AppDatabase
+import com.kv.userweatherapp.data.db.user.UserRepository
+import com.kv.userweatherapp.data.pref.DataStoreManager
 import com.kv.userweatherapp.di.ApiClient
 import com.kv.userweatherapp.domain.repository.WeatherRepository
 

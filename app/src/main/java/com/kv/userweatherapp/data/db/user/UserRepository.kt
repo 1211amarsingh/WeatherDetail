@@ -1,4 +1,4 @@
-package com.kv.userweatherapp.datalayer.db.user
+package com.kv.userweatherapp.data.db.user
 
 import kotlinx.coroutines.flow.Flow
 

@@ -8,7 +8,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import com.google.gson.Gson
 import com.kv.userweatherapp.domain.model.UserModel
-import com.kv.userweatherapp.datalayer.pref.DataStoreManager
+import com.kv.userweatherapp.data.pref.DataStoreManager
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
