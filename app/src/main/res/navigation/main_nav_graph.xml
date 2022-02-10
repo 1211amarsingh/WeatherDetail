@@ -42,10 +42,7 @@
             android:id="@+id/action_mainFragment_to_weatherFragment"
             app:destination="@id/weatherFragment" />
     </fragment>
-    <activity android:id="@+id/mainActivity" android:name="com.kv.userweatherapp.presentation.main.MainActivity" android:label="MainActivity">
 
-
-    </activity>
     <fragment
         android:id="@+id/userAddFragment"
         android:name="com.kv.userweatherapp.presentation.useradd.AddUserFragment"
@@ -57,5 +54,5 @@
         android:id="@+id/weatherFragment"
         android:name="com.kv.userweatherapp.presentation.weather.WeatherFragment"
         android:label="WeatherFragment"
-        tools:layout="@layout/weather_fragment"></fragment>
+        tools:layout="@layout/weather_fragment"/>
 </navigation>

@@ -1,13 +1,18 @@
 package com.kv.userweatherapp.presentation.user
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.asLiveData
+import androidx.lifecycle.*
 import com.kv.userweatherapp.datalayer.db.user.UserEntity
 import com.kv.userweatherapp.datalayer.db.user.UserRepository
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
-class HomeViewModel(userRepository: UserRepository) : ViewModel() {
+class HomeViewModel(val userRepository: UserRepository) : ViewModel() {
+
+    fun delete(userentity: UserEntity) {
+        viewModelScope.launch(Dispatchers.IO) {
+            userRepository.delete(userentity)
+        }
+    }
 
     var userAll: LiveData<List<UserEntity>> = userRepository.userAll.asLiveData()
 }

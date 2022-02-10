@@ -22,7 +22,9 @@ class UserAdapter(var click1: View.OnClickListener) :
     override fun onBindViewHolder(holder: UserAdapter.ItemViewholder, position: Int) {
         holder.bind(getItem(position))
     }
-
+fun getObject(position: Int): UserEntity {
+    return getItem(position)
+}
 
     inner class ItemViewholder(var binding: ItemUserBinding) :
         RecyclerView.ViewHolder(binding.root) {

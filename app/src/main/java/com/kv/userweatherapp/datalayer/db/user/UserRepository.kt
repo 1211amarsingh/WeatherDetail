@@ -13,4 +13,7 @@ class UserRepository(val userDao: UserDao) {
     suspend fun insert(user: UserEntity) {
         userDao.insert(user)
     }
+    suspend fun delete(user: UserEntity) {
+        userDao.delete(user)
+    }
 }

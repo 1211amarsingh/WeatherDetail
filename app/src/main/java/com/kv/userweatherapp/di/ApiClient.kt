@@ -27,7 +27,7 @@ object ApiClient {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }
-    val apiService: WeatherService by lazy {
+    val  apiService: WeatherService by lazy {
         retrofit.create(WeatherService::class.java)
     }
 }

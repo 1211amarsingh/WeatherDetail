@@ -7,9 +7,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.NavController
 import androidx.navigation.NavOptions
-import androidx.navigation.Navigation
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.onNavDestinationSelected
 import androidx.navigation.ui.setupActionBarWithNavController
 import com.kv.userweatherapp.MyApplication
 import com.kv.userweatherapp.R
@@ -51,22 +51,13 @@ class MainActivity : AppCompatActivity() {
      * at the start of the action bar.
      */
     override fun onSupportNavigateUp(): Boolean {
-
-        return Navigation.findNavController(
-            this,
-            R.id.nav_host_fragment
-        ).navigateUp() || super.onSupportNavigateUp()
-    }
-
-    override fun onBackPressed() {
-        super.onBackPressed()
-
+        return navController.navigateUp() || super.onSupportNavigateUp()
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.add -> {
-                navController.navigate(R.id.userAddFragment)
+            R.id.userAddFragment -> {
+                item.onNavDestinationSelected(navController)
                 return true
             }
             R.id.logout -> {

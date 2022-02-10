@@ -1,11 +1,7 @@
 package com.kv.userweatherapp.presentation.weather
 
-import android.util.Log
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.viewModelScope
-import com.google.gson.Gson
+import androidx.lifecycle.*
+import com.kv.userweatherapp.data.remote.NetworkResult
 import com.kv.userweatherapp.domain.model.WeatherModel
 import com.kv.userweatherapp.domain.repository.WeatherRepository
 import kotlinx.coroutines.Dispatchers
@@ -23,9 +19,11 @@ class WeatherViewModel(val weatherRepository: WeatherRepository) : ViewModel() {
             )
 
             withContext(Dispatchers.Main) {
-                val body = response.body()
-                if (response.isSuccessful && response.code() == 200) {
-                    weatherdata.value = body!!
+                if (response!=null){
+                    val body = response.body()
+                    if (response.isSuccessful && response.code() == 200) {
+                        weatherdata.value = body!!
+                    }
                 }
             }
         }
