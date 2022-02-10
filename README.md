@@ -15,4 +15,4 @@ Weather Details
 
 ## Output
 
-[<img src="https://github.com/1211amarsingh/WeatherDetail/blob/master/doc/Screenshot.png" />]
+[<img src="https://raw.githubusercontent.com/1211amarsingh/WeatherDetail/master/doc/screenshot.png" />]
