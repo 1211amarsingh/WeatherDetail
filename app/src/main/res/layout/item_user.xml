@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="item"
+            type="com.kv.userweatherapp.datalayer.db.user.UserEntity" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/_5sdp">
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_first_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@{item.first_name}"
+            android:textColor="@color/semi_black"
+            app:layout_constraintHorizontal_bias="0.5"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_min="@dimen/_70sdp"
+            tools:text="Test" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@{item.last_name}"
+
+            android:textAlignment="center"
+            android:textColor="@color/semi_black"
+            app:layout_constraintStart_toEndOf="@id/tv_first_name"
+            app:layout_constraintTop_toTopOf="parent"
+
+            tools:text="user" />
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_last_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:text="@{item.email}"
+            android:textAlignment="center"
+            android:textColor="@color/semi_black"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent"
+
+            tools:text="email" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>
