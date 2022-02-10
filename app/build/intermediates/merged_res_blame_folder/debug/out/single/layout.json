@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\UserWeatherApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\home_fragment.xml",
+        "source": "E:\\UserWeatherApp\\app\\src\\main\\res\\layout\\home_fragment.xml"
+    },
+    {
+        "merged": "E:\\UserWeatherApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\welcome_fragment.xml",
+        "source": "E:\\UserWeatherApp\\app\\src\\main\\res\\layout\\welcome_fragment.xml"
+    },
+    {
+        "merged": "E:\\UserWeatherApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\main_activity.xml",
+        "source": "E:\\UserWeatherApp\\app\\src\\main\\res\\layout\\main_activity.xml"
+    },
+    {
+        "merged": "E:\\UserWeatherApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\weather_fragment.xml",
+        "source": "E:\\UserWeatherApp\\app\\src\\main\\res\\layout\\weather_fragment.xml"
+    },
+    {
+        "merged": "E:\\UserWeatherApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_user.xml",
+        "source": "E:\\UserWeatherApp\\app\\src\\main\\res\\layout\\item_user.xml"
+    },
+    {
+        "merged": "E:\\UserWeatherApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\login_fragment.xml",
+        "source": "E:\\UserWeatherApp\\app\\src\\main\\res\\layout\\login_fragment.xml"
+    },
+    {
+        "merged": "E:\\UserWeatherApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\add_user_fragment.xml",
+        "source": "E:\\UserWeatherApp\\app\\src\\main\\res\\layout\\add_user_fragment.xml"
+    }
+]

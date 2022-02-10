@@ -1,0 +1,1 @@
+[{"navFile":"src\\main\\res\\navigation\\main_nav_graph.xml","javaFiles":["com.kv.userweatherapp.presentation.welcome.WelcomeFragmentDirections","com.kv.userweatherapp.presentation.login.LoginFragmentDirections","com.kv.userweatherapp.presentation.user.HomeFragmentDirections"]}]
