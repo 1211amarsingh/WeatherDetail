@@ -13,6 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UserWeatherApp">
         <activity
+            android:screenOrientation="portrait"
             android:name="com.kv.userweatherapp.presentation.main.MainActivity"
             android:exported="true">
             <intent-filter>

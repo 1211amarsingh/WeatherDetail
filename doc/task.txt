@@ -1,0 +1,18 @@
+
+Weather API URL: https://api.openweathermap.org/data/2.5/onecall?lat=12.9082847623315&lon=77.65197822993314&units=imperial&appid=b143bb707b2ee117e62649b358207d3e
+
+1) On boarding Screen with a welcome message with two buttons - Login
+2) Login screen - (add required validations) //user details (username = testapp@google.com, password =Test@123456)
+4) Redirect to User List Screen by clicking on Login . (User List Screen contains list of users that you create in the next step)
+5) Add + button in top right side corner. By clicking on + button it’ll redirect to User Form.
+6) User Form you have to add first name, last name, Email text field and put save - cancel button.
+7) By clicking on save button you have to Store first name, Last name, email redirect to user List screen.
+8) Fetch record from database and display it in user List screen. (First name, Last name, Email)
+9) Delete record one by one. (using swipe to delete functionality)
+10) By clicking on user it’ll redirect to Weather screen
+11) Integrate Open weather map.
+12) Call above Mentioned URL.
+13) Displayed today's weather data (temp, Weather type, humidity, wind_speed)
+14) Put Logout button at right side and back button at left side in open weather screen.
+15) add logout and back button navigation flow on it.
+
